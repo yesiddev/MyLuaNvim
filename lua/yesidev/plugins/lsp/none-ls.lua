@@ -41,7 +41,7 @@ return {
 				--  "formatting.prettier.with({disabled_filetypes: {}})" (see null-ls docs)
 				formatting.prettier.with({
 					extra_filetypes = { "svelte" },
-					extra_args = { "--single-quote" },
+					extra_args = { "--single-quote", "--no-semi" },
 				}), -- js/ts formatter
 
 				-- formatters

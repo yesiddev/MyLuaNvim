@@ -32,6 +32,8 @@ return {
 							["il"] = "@loop.inner",
 							["al"] = "@loop.outer",
 							["at"] = "@comment.outer",
+              ["ab"] = "@block.outer",
+              ["ib"] = "@block.inner"
 						},
 					},
 

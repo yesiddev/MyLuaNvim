@@ -10,7 +10,7 @@ return {
 				underline = true,
 				bold = true,
 				italic = {
-					strings = true,
+					strings = false,
 					comments = true,
 					operators = false,
 					folds = true,
@@ -29,7 +29,7 @@ return {
 			})
 
 			-- load the colorscheme here
-			-- vim.cmd.colorscheme("gruvbox")
+			vim.cmd.colorscheme("gruvbox")
 		end,
 	},
 }
